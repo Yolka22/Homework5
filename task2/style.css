@@ -1,0 +1,19 @@
+button{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+}
+
+@keyframes roundAnim{
+    0%{
+
+    }
+    100%{
+        rotate: 225deg;
+        border-radius: 50%;
+    }
+}
+
+button:hover{
+    Animation:roundAnim 2s linear forwards;
+}
